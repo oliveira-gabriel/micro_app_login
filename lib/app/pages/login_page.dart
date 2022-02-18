@@ -20,7 +20,7 @@ class LoginPage extends StatelessWidget {
             Text(_suffixName, style: TextStyle(fontSize: 20)),
             Text(_server, style: TextStyle(fontSize: 20)),
             CustomButtonWidget(
-              text: 'goToHome',
+              text: 'TESTE',
               onPressed: () => navigatorKey.currentState?.pushNamed('/home'),
             ),
           ],
